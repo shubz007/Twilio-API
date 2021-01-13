@@ -19,9 +19,9 @@ from google.cloud import firestore
 from twilio.rest import Client as TwilioClient
 from twilio.base.exceptions import TwilioRestException
 
-account_sid = '' # TODO
-auth_token  = '' # TODO
-from_number = '' # TODO
+account_sid = 'Account' # TODO
+auth_token  = 'Token ' # TODO
+from_number = 'Number' # TODO
 
 app = Flask(__name__)
 db = firestore.Client()
